@@ -2,19 +2,21 @@
   "name": "meu-bot",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": "18.0.6"
+  },
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@types/node": "^18.0.6",
-    "cli-color": "^2.0.3",
-    "discord.js": "^14.21.0",
-    "discord.js-akinator": "^4.1.3",
-    "express": "^4.18.2",
+    "@types/node": "^18.19.130",
+    "cli-color": "^2.0.4",
+    "discord.js": "^14.25.1",
+    "discord.js-akinator": "^4.1.5",
+    "express": "^4.22.1",
     "fs-extra": "^10.1.0",
     "ms": "^2.1.3",
-    "node-fetch": "^3.2.6",
-    "node": "18.0.6",
-    "quick.db": "^7.1.3"
+    "node-fetch": "^3.3.2",
+    "quick.db": "^9.1.7"
   }
 }
